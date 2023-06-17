@@ -21,7 +21,6 @@ export default defineConfig(async () => {
       include: ["src/**/*.tsx", "src/**/*.ts", "src/*.ts", "src/*.tsx"],
     }),
   ];
-
   return {
     plugins,
     resolve: {
